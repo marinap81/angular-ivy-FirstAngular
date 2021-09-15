@@ -1,0 +1,34 @@
+<!--https://angular.io/guide/set-document-title-->
+<app-header [title] ="header1" ></app-header>
+
+<br>
+<br>
+<br>
+
+<app-textbody [title] = "textbody1" >
+  <br>
+  <br>
+  <br>
+
+
+</app-textbody>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<button (click)="handleBtnClick()"> click me</button> <!--step 2 function only required in app.comp.ts-->
+<br>
+<br>
+
+<app-footer [title]="footer1"></app-footer><!--step 4-pass in child variable inside brackets to output what is written inside the footer.component.html, [title] = The Title service is part of the Angular browser platform--->
+
+
+  <!--<p *ngFor = "Let car of carList">{{carList}}</p> ngFor is a for loop to go through list of cars --->
+
+
+
+ 
+

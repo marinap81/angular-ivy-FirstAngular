@@ -1,0 +1,14 @@
+<div class="textbodyexample">
+
+{{ textbodyinfo }} <!-- STEP 3- reference input from textbody.ts by using these brackets-->
+{{ carListinfo }}
+
+
+<!--<p *ngFor="let c of carListinfo">{{carListinfo}}</p>  references all variables in child ie textbody.ts. -->
+<p>Select a car from the drop down</p>
+ <select [(ngModel)]="selectedCarvar">
+ <option *ngFor="let c of carListinfo" [ngValue]="c.carName" > {{ c.carName }} </option>
+</select>
+
+</div>
+
