@@ -8,7 +8,8 @@ import { Car } from '../../Components/Models/car';
   styleUrls: ['./textbody.component.css']
 })
 export class TextbodyComponent implements OnInit {
-@Input() textbodyinfo: string = "Hello, hello, hello, hello, hello, hello, hello, hello";
+@Input() textbodyinfo: string;
+@Input() titlevar: string;
 @Input() carListinfo: Car[]; //3. carlist is now created as a variable input so html knows to display it
 @Input() selectedCarvar: Car []; //4
 

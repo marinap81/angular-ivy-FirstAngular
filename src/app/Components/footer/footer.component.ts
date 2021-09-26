@@ -7,7 +7,7 @@ import { Component, Input, OnInit, EventEmitter } from '@angular/core';
 })
 export class FooterComponent implements OnInit 
 {
-@Input() footerSection: string  = 'Hello, This page is created by Marina Pajvancic'; //STEP 2-create var @Input()-this will appear on webpage
+@Input() footerSection: string; //STEP 2-create var @Input()-this will appear on webpage
 
   //constructor() { } doesnt appaer contructor is needed
 

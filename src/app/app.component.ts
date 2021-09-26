@@ -11,9 +11,10 @@ import { HeaderComponent } from './Components/header/header.component';
 })
 export class AppComponent {
 
-  footer1: string; //STEP 1 titlevar is the variable  that is declared
+  footerSection1: string = 'Hello, This page is created by Marina Pajvancic'; //STEP 1 titlevar is the variable  that is declared
 
-  textbody1: string; 
+  textbody1: string  = "Hello, hello, hello, hello, hello, hello, hello, hello"; 
+  titlevar: string = "Marinas testing of 2nd variable inside textbody";
 
   header1: string;
 
@@ -32,4 +33,4 @@ export class AppComponent {
     console.log('testing Button Click');
   }
 }
-
+ 
